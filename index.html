@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Elara&#39;s Pop &amp; Play</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="game" id="game">
+
+  <!-- HEADER -->
+  <header class="game-header">
+    <div class="brand">
+      <span class="brand-star">✦</span>
+      <div>
+        <h1>My Little Pop & Play</h1>
+        <p>Let's learn and have fun!</p>
+      </div>
+      <span class="brand-star">✦</span>
+    </div>
+
+    <div class="top-controls">
+      <button id="soundButton" class="control-button">🔊 Sound ON</button>
+      <button id="musicButton" class="control-button">🎵 Music OFF</button>
+      <button id="fullscreenButton" class="control-button">⛶ Fullscreen</button>
+    </div>
+  </header>
+
+  <!-- MAGIC GARDEN -->
+  <section class="magic-garden">
+
+    <div class="garden-sky">
+      <div class="sun">
+        <span>☀️</span>
+      </div>
+      <div class="cloud cloud-one"></div>
+      <div class="cloud cloud-two"></div>
+      <div class="cloud cloud-three"></div>
+
+      <!-- MAGIC RAINBOW -->
+      <div class="rainbow" id="rainbow">
+        <div class="rainbow-arc arc-red"></div>
+        <div class="rainbow-arc arc-orange"></div>
+        <div class="rainbow-arc arc-yellow"></div>
+        <div class="rainbow-arc arc-green"></div>
+        <div class="rainbow-arc arc-blue"></div>
+        <div class="rainbow-arc arc-purple"></div>
+        <div class="rainbow-cloud rainbow-cloud-left">☁️</div>
+        <div class="rainbow-cloud rainbow-cloud-right">☁️</div>
+        <div class="rainbow-sparkle">✦</div>
+      </div>
+    </div>
+
+    <div class="garden-heading">
+      <span>🌷</span>
+      <div>
+        <h2>Magic Garden</h2>
+        <p>A little world full of magic!</p>
+      </div>
+      <span>🌼</span>
+    </div>
+
+    <!-- MAGIC BUNNY -->
+    <div class="bunny" id="bunny">
+      <div class="bunny-sparkle sparkle-one">✦</div>
+      <div class="bunny-sparkle sparkle-two">✨</div>
+
+      <div class="bunny-character">
+
+        <div class="bunny-ear bunny-ear-left">
+          <div class="ear-inner"></div>
+        </div>
+        <div class="bunny-ear bunny-ear-right">
+          <div class="ear-inner"></div>
+        </div>
+
+        <div class="bunny-body">
+          <div class="bunny-belly"></div>
+        </div>
+
+        <div class="bunny-tail"></div>
+
+        <div class="bunny-arm bunny-arm-left"></div>
+        <div class="bunny-arm bunny-arm-right"></div>
+
+        <div class="bunny-leg bunny-leg-left"></div>
+        <div class="bunny-leg bunny-leg-right"></div>
+
+        <div class="bunny-head">
+          <div class="bunny-eye bunny-eye-left"></div>
+          <div class="bunny-eye bunny-eye-right"></div>
+          <div class="bunny-cheek bunny-cheek-left"></div>
+          <div class="bunny-cheek bunny-cheek-right"></div>
+          <div class="bunny-nose"></div>
+          <div class="bunny-mouth"></div>
+        </div>
+      </div>
+
+      <div class="bunny-shadow"></div>
+    </div>
+
+    <!-- MAGIC FLOWER GARDEN -->
+    <div class="flower-garden" id="flowerGarden">
+
+      <div class="magic-flower flower-one">
+        <div class="flower-petals">
+          <i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+        <div class="flower-center">♡</div>
+        <div class="flower-stem"></div>
+        <div class="flower-leaf leaf-left"></div>
+        <div class="flower-leaf leaf-right"></div>
+      </div>
+
+      <div class="magic-flower flower-two">
+        <div class="flower-petals">
+          <i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+        <div class="flower-center">✦</div>
+        <div class="flower-stem"></div>
+        <div class="flower-leaf leaf-left"></div>
+        <div class="flower-leaf leaf-right"></div>
+      </div>
+
+      <div class="magic-flower flower-three">
+        <div class="flower-petals">
+          <i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+        <div class="flower-center">♡</div>
+        <div class="flower-stem"></div>
+        <div class="flower-leaf leaf-left"></div>
+        <div class="flower-leaf leaf-right"></div>
+      </div>
+
+      <div class="magic-flower flower-four">
+        <div class="flower-petals">
+          <i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+        <div class="flower-center">✦</div>
+        <div class="flower-stem"></div>
+        <div class="flower-leaf leaf-left"></div>
+        <div class="flower-leaf leaf-right"></div>
+      </div>
+
+      <div class="magic-flower flower-five">
+        <div class="flower-petals">
+          <i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+        <div class="flower-center">♡</div>
+        <div class="flower-stem"></div>
+        <div class="flower-leaf leaf-left"></div>
+        <div class="flower-leaf leaf-right"></div>
+      </div>
+
+    </div>
+
+    <div class="garden-ground"></div>
+    <div class="garden-grass grass-left">🌱</div>
+    <div class="garden-grass grass-right">🌿</div>
+
+    <div class="magic-hearts" id="magicHearts"></div>
+
+    <div class="garden-message" id="gardenMessage">
+      Welcome to our magical garden! 🌸
+    </div>
+
+  </section>
+
+  <!-- LEARNING AREA -->
+  <section class="learning-area">
+
+    <div class="learning-title">
+      <h2>Let's Learn! <span>✨</span></h2>
+      <p>Tap a picture and say the word!</p>
+    </div>
+
+    <div class="word-grid">
+
+      <button class="word-card mummy-card" data-word="MUMMY">
+        <span class="card-decoration">♡</span>
+        <span class="word-picture">👩🏻</span>
+        <span class="word-label">MUMMY</span>
+        <span class="card-tap">TAP ME!</span>
+      </button>
+
+      <button class="word-card daddy-card" data-word="DADDY">
+        <span class="card-decoration">♡</span>
+        <span class="word-picture">👨🏻</span>
+        <span class="word-label">DADDY</span>
+        <span class="card-tap">TAP ME!</span>
+      </button>
+
+      <button class="word-card eat-card" data-word="EAT">
+        <span class="card-decoration">♡</span>
+        <span class="word-picture">🍓</span>
+        <span class="word-label">EAT</span>
+        <span class="card-tap">TAP ME!</span>
+      </button>
+
+      <button class="word-card sleep-card" data-word="SLEEP">
+        <span class="card-decoration">♡</span>
+        <span class="word-picture">🌙</span>
+        <span class="word-label">SLEEP</span>
+        <span class="card-tap">TAP ME!</span>
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- PROGRESS -->
+  <section class="progress-area">
+    <div class="progress-top">
+      <span>⭐ My Stars</span>
+      <strong id="score">0</strong>
+    </div>
+
+    <div class="progress-track">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <p id="progressText">Keep tapping to earn magic stars!</p>
+  </section>
+
+  <!-- REWARDS -->
+  <section class="rewards">
+    <div class="reward-item" id="rewardBunny">
+      <span>🐰</span>
+      <small>10 Stars</small>
+    </div>
+    <div class="reward-item" id="rewardFlower">
+      <span>🌸</span>
+      <small>20 Stars</small>
+    </div>
+    <div class="reward-item" id="rewardRainbow">
+      <span>🌈</span>
+      <small>30 Stars</small>
+    </div>
+  </section>
+
+  <div class="feedback-text" id="feedbackText"></div>
+
+  <button class="reset-button" id="resetButton">↻ Play Again</button>
+
+  <!-- CELEBRATION -->
+  <div class="celebration" id="celebration">
+    <div class="celebration-box">
+      <div class="celebration-emoji" id="celebrationEmoji">🎉</div>
+      <h2 id="celebrationTitle">Amazing!</h2>
+      <p id="celebrationMessage">You did a wonderful job!</p>
+      <button id="celebrationButton">Yay! ⭐</button>
+    </div>
+  </div>
+
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
